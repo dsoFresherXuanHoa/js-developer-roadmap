@@ -1,0 +1,17 @@
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.linear {
+  background-image: linear-gradient(to left, red, green, black);
+}
+
+.radial {
+  background-image: radial-gradient(red, green, black);
+}
+
+.conic {
+  background-image: conic-gradient(red, green, black);
+}

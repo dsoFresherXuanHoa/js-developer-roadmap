@@ -1,0 +1,18 @@
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  animation: changeColor 1s ease-in-out 1s infinite alternate;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
+}

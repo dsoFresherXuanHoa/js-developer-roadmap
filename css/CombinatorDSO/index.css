@@ -1,0 +1,15 @@
+.base .box {
+  color: red;
+}
+
+.base > .box {
+  color: green;
+}
+
+.box + .box {
+  color: transparent;
+}
+
+.box ~ .child {
+  color: yellow;
+}

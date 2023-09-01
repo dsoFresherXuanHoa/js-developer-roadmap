@@ -1,0 +1,5 @@
+.box {
+  width: max(100px, 200px);
+  height: min(100px, 200px);
+  border: calc(1px + 1px) solid black;
+}

@@ -1,0 +1,11 @@
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  /* background-color: red; */
+  /* opacity: 0.5; */
+  background-image: url(https://lh4.googleusercontent.com/D05rYr0Hu_2pACPD6xz0ERY2JKnwY2miuEP5AXEc8HqgKSGMtjoQdNFaDaG4sGgP70BFMv3OqABpW778ZZe_ZsvCtVYtf2W0ornVH7QR6_LMLOk2ZuyqesY-7zNd7SklJ0otYLCUIxXshVkn1g);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom left;
+}

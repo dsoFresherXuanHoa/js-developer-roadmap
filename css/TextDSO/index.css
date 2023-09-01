@@ -1,0 +1,16 @@
+p {
+  color: red;
+  background-color: yellowgreen;
+  text-align: center;
+  text-align-last: left;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-indent: 100px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 20px;
+  /* white-space: nowrap; */
+  text-shadow: 2px 2px 2px salmon;
+}
