@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="" target="_blank" method="get" autocomplete="off" novalidate>
+      <fieldset>
+        <legend>Form Field</legend>
+        <label for="username">Username: </label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          value="dsoFresherXuanHoa"
+          readonly
+          disabled
+          required
+          size="20"
+          maxlength="20"
+        />
+        <input type="radio" name="rGender" id="rMale" /> Male
+        <input type="radio" name="rGender" id="rFemale" /> Female
+        <input type="checkbox" name="chkGender" id="chkMale" /> Male
+        <input type="checkbox" name="chkGender" id="chkFemale" /> Female
+        <input type="submit" value="Submit" />
+        <select name="slcGender" id="slcGender" size="2" multiple>
+          <option value="male">Male</option>
+          <option value="female" selected>Female</option>
+        </select>
+        <input list="genders" />
+        <datalist id="genders">
+          <option value="male">Male</option>
+          <option value="female" selected>Female</option>
+        </datalist>
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Enter message here"
+          autofocus
+        ></textarea>
+        <button type="button">Button</button>
+        <input type="number" name="age" id="age" min="1" max="100" step="1" />
+        <input type="submit" value="Base" formaction="/" />
+        <input
+          type="submit"
+          value="Enctype"
+          formenctype="application/x-www-form-urlencoded"
+        />
+        <input type="submit" value="Post" formmethod="post" />
+        <input type="submit" value="Blank" formtarget="_blank" />
+        <input type="submit" value="Invalidation" formnovalidate />
+      </fieldset>
+    </form>
+  </body>
+</html>

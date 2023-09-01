@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      th {
+        background-color: yellowgreen;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Student Manager
+      </caption>
+      <colgroup>
+        <col span="2" style="background-color: rebeccapurple" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th colspan="2">Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Le Xuan</td>
+          <td>Hoa</td>
+          <td>dso.intern.xuanhoa@gmail.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Le Xuan</td>
+          <td>Hoa</td>
+          <td>dso.intern.xuanhoa@gmail.com</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Le Xuan</td>
+          <td>Hoa</td>
+          <td>dso.intern.xuanhoa@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

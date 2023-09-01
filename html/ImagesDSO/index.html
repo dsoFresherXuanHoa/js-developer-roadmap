@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images</title>
+  </head>
+  <body>
+    <img
+      src="https://lh4.googleusercontent.com/D05rYr0Hu_2pACPD6xz0ERY2JKnwY2miuEP5AXEc8HqgKSGMtjoQdNFaDaG4sGgP70BFMv3OqABpW778ZZe_ZsvCtVYtf2W0ornVH7QR6_LMLOk2ZuyqesY-7zNd7SklJ0otYLCUIxXshVkn1g"
+      alt="Asian Girl"
+      style="width: 200px"
+    />
+
+    <div
+      style="
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        background-image: url(https://lh4.googleusercontent.com/D05rYr0Hu_2pACPD6xz0ERY2JKnwY2miuEP5AXEc8HqgKSGMtjoQdNFaDaG4sGgP70BFMv3OqABpW778ZZe_ZsvCtVYtf2W0ornVH7QR6_LMLOk2ZuyqesY-7zNd7SklJ0otYLCUIxXshVkn1g);
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    ></div>
+
+    <picture>
+      <source
+        media="(min-width: 400px)"
+        srcset="
+          https://lh4.googleusercontent.com/D05rYr0Hu_2pACPD6xz0ERY2JKnwY2miuEP5AXEc8HqgKSGMtjoQdNFaDaG4sGgP70BFMv3OqABpW778ZZe_ZsvCtVYtf2W0ornVH7QR6_LMLOk2ZuyqesY-7zNd7SklJ0otYLCUIxXshVkn1g
+        "
+        style="width: 300px"
+      />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShOXwFN2YWtoAT6YPjR0BzgHr8pq0WXzd-OA&usqp=CAU"
+        alt="Asian Girl"
+        style="width: 300px"
+      />
+    </picture>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+- Quick Started
+- Elements
+- Attributes
+- Headings
+- Paragraphs
+- Styles *
+- Text Formatting
+- Quotation
+- Comments *
+- Colors *
+- Css *
+- Links
+- Images
+- Favicon
+- Page Title *
+- Tables
+- Lists
+- Block and Inline
+- Class
+- Id 
+- IFrames
+- JavaScript *
+- Head Element *
+- Layout Elements *
+- Responsive Web Design *
+- Computer Code
+- Semantic Elements *
+- Entities, Symbols, Emojis *
+- Uniform Resource Locators *
+- HTML Versus XHTML *
+- Forms
+- Form Attributes 
+- Form Elements
+- Input Types
+- Input Attributes
+- Canvas *
+- SVG *
+- Media *
+- Video
+- Audio
+- Plug-ins
+- YouTube Videos
