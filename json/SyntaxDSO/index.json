@@ -1,0 +1,10 @@
+{
+  "name": "Volvo",
+  "speed": 200,
+  "manufacturer": {
+    "name": "Volvo Inc"
+  },
+  "country": ["USA", "JP"],
+  "bestSale": true,
+  "own": null
+}
