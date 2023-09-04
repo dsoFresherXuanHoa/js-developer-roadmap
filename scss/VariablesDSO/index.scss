@@ -1,0 +1,10 @@
+$primary-text-color: red;
+
+p {
+  $primary-text-color: green !global;
+  color: $primary-text-color;
+}
+
+a {
+  color: $primary-text-color;
+}

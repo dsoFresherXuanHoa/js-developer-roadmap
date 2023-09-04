@@ -1,0 +1,11 @@
+@mixin primary-text-color($color: red) {
+  color: $color;
+}
+
+p {
+  @include primary-text-color(red);
+}
+
+a {
+  @include primary-text-color(yellow);
+}

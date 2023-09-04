@@ -1,0 +1,13 @@
+ul {
+  li {
+    color: red;
+
+    &:first-child {
+      color: black;
+    }
+
+    &::selection {
+      background-color: salmon;
+    }
+  }
+}
