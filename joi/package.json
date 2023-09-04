@@ -1,0 +1,16 @@
+{
+  "name": "joi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9"
+  }
+}
